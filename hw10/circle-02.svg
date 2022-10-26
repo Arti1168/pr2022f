@@ -141,7 +141,7 @@
     <animate attributeName="stroke-dashoffset" to="0" begin="1.5s" dur="2.0s" repeatCount="1" fill="freeze"/>
   </circle>
   
-  //從下畫中圓
+  //從下畫中圓由外往內
    <circle cx="256" cy="288" r="288" fill="none" stroke="#00ff00" stroke-width="3" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(90,256,288)">
     <animate attributeName="stroke-dashoffset" to="0" begin="1.5s" dur="2.0s" repeatCount="1" fill="freeze"/>
   </circle>
@@ -159,6 +159,22 @@
   </circle>
   
   <circle cx="256" cy="416" r="160" fill="none" stroke="#00ff00" stroke-width="3" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(90,256,416)">
+    <animate attributeName="stroke-dashoffset" to="0" begin="1.5s" dur="2.0s" repeatCount="1" fill="freeze"/>
+  </circle>
+  
+  <circle cx="256" cy="448" r="128" fill="none" stroke="#00ff00" stroke-width="3" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(90,256,448)">
+    <animate attributeName="stroke-dashoffset" to="0" begin="1.5s" dur="2.0s" repeatCount="1" fill="freeze"/>
+  </circle>
+  
+  <circle cx="256" cy="480" r="96" fill="none" stroke="#00ff00" stroke-width="3" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(90,256,480)">
+    <animate attributeName="stroke-dashoffset" to="0" begin="1.5s" dur="2.0s" repeatCount="1" fill="freeze"/>
+  </circle>
+  
+  <circle cx="256" cy="512" r="64" fill="none" stroke="#00ff00" stroke-width="3" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(90,256,512)">
+    <animate attributeName="stroke-dashoffset" to="0" begin="1.5s" dur="2.0s" repeatCount="1" fill="freeze"/>
+  </circle>
+  
+  <circle cx="256" cy="544" r="32" fill="none" stroke="#00ff00" stroke-width="3" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(90,256,544)">
     <animate attributeName="stroke-dashoffset" to="0" begin="1.5s" dur="2.0s" repeatCount="1" fill="freeze"/>
   </circle>
 </svg>
