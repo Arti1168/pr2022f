@@ -71,6 +71,13 @@
     <animate attributeName="stroke-dashoffset" to="0" begin="2.0s" dur="2.5s" repeatCount="1" fill="freeze"/>
   </circle>
   
+  <circle cx="256" cy="416" r="32" fill="none" stroke="#800000" stroke-width="2" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(90,256,416)">
+    <animate attributeName="stroke-dashoffset" to="0" begin="2.5s" dur="3.5s" repeatCount="1" fill="freeze"/>
+  </circle>
+  
+  <circle cx="256" cy="384" r="32" fill="none" stroke="#800000" stroke-width="2" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(90,256,384)">
+    <animate attributeName="stroke-dashoffset" to="0" begin="2.5s" dur="3.5s" repeatCount="1" fill="freeze"/>
+  </circle>
   
   //從外畫大園
   <circle cx="256" cy="256" r="320" fill="none" stroke="blue" stroke-width="3" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(90,256,256)">
