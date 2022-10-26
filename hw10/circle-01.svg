@@ -79,13 +79,13 @@
     <animate attributeName="stroke-dashoffset" to="0" begin="2.5s" dur="3.5s" repeatCount="1" fill="freeze"/>
   </circle>
   
-  //從外畫大園
+  //最外面的大園
   <circle cx="256" cy="256" r="320" fill="none" stroke="blue" stroke-width="3" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(90,256,256)">
     <animate attributeName="stroke-dashoffset" to="0" begin="1.0s" dur="1.5s" repeatCount="1" fill="freeze"/>
   </circle>
 
-
-  <circle cx="256" cy="224" r="288" fill="none" stroke="blue" stroke-width="3" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(-90,256,224)">
+  //從上畫大園
+  <circle cx="256" cy="224" r="288" fill="none" stroke="blue" stroke-width="3" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(180,256,224)">
     <animate attributeName="stroke-dashoffset" to="0" begin="1.5s" dur="2.0s" repeatCount="1" fill="freeze"/>
   </circle>
 </svg>
