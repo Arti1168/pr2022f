@@ -44,9 +44,14 @@
 
   <text x="254" y="250" font-size="16" text-anchor="middle" fill="red">(256, 256)</text>
 
-  <ellipse fill="#77DD47" stroke="#246614" stroke-width="5" cx="256" cy="270" rx="200" ry="150" opacity="0.2"/>
 
-  <path d="M456 256 A200 140, 0, 0, 0, 56 256" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
+  <path d="M96 181 Q0 340,161 405
+           M161 405 Q340 445,420 373
+           M420 373 Q486 290,416 181
+           M430 205 Q459 39,340 123
+           M340 123 A180 330,105 0 0 180 126
+           M180 126 C130 98,58 68,85,197  " stroke-width="10" stroke-linecap="round" stroke="#F00" fill="none" opacity="0.3"/>
+
 
   <circle id="c1" cx="456" cy="256" r="1" stroke="red" fill="none">
     <animate attributeName="r" to="10" dur="2s" repeatCount="indefinite"/>
